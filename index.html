@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .parent-box{
+            width: 400px;
+            height: 400px;
+            background-color: lightgray;
+            padding: 200px;
+        }
+        .relative-box{
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            position: absolute;
+            margin: 20px;
+            
+        }
+        .absolute-box{
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
+        }
+
+    </style>
+    <head>
+        <body>
+            <div class="parent-box">
+                <div class="relative-box">
+                    relative-box
+                    <div class="absolute-box">absolute-box</div>
+                </div>
+            </div>
+        </body>
+    </head>
+</body>
+</html>

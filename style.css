@@ -1,0 +1,87 @@
+.background-nav {
+    background-image:
+        linear-gradient(to bottom, rgba(7, 33, 105, 0.7), #343a40),
+        url('https://3.bp.blogspot.com/-cmcIiPf0164/XMCesPYXmII/AAAAAAAABuQ/hF6Sl7EpDKEkdj2R6B2ECGG6EbVke64yACKgBGAs/w3440-h1440-p-k-no-nu/avengers-endgame-characters-uhdpaper.com-4K-122.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    float: none;
+    font-size: 2.20rem;
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card {
+    min-height: 800px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: ease-in 0.1s;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.card-img-top {
+    min-height: 380px;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    position: sticky;
+    top: 10px;
+}
+
+.search-container>input {
+    margin-right: .5rem !important
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    border-top: 1px #222222 solid;
+}
+
+.nav-item {
+    cursor: pointer;
+}
