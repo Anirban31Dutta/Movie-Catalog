@@ -3,44 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movies Catalog</title>
+    
 </head>
 <body>
-    <style>
-        .parent-box{
-            width: 400px;
-            height: 400px;
-            background-color: lightgray;
-            padding: 200px;
-        }
-        .relative-box{
-            width: 200px;
-            height: 200px;
-            background-color: lightgray;
-            position: absolute;
-            margin: 20px;
-            
-        }
-        .absolute-box{
-            width: 200px;
-            height: 200px;
-            background-color: lightgray;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            
-        }
-
-    </style>
-    <head>
-        <body>
-            <div class="parent-box">
-                <div class="relative-box">
-                    relative-box
-                    <div class="absolute-box">absolute-box</div>
-                </div>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Movies</a></li>
+                <li><a href="">Reviews</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Movies Catalog</h1>
+                <p>Explore the movies and reviews</p>
+                <button>Get Started</button>
             </div>
-        </body>
-    </head>
+        </section>
+        <section class="movies">
+            <div class="container">
+                <h2>Now Playing</h2>
+                <ul>
+                    <li>
+                        <img src="https://bcomber.org/wp-content/uploads/2021/10/Screen-Shot-2021-10-26-at-6.48.45-AM-900x499.png" alt="3 Idiots" height="200">
+                        <h3>3 Idiots</h3>
+                        <p>Comedy/Romance</p>
+                        <button>Watch Trailer</button>
+                    </li>
+                    <li>
+                        <img src="https://i.ytimg.com/vi/tF1JN2pT_sM/maxresdefault.jpg" alt="Laapataa Ladies" height="200">
+                        <h3>Laapataa Ladies</h3>
+                        <p>Comedy/Drama</p>
+                        <button>Watch Trailer</button>
+                    </li>
+                    <li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbmqFN9nTv_oSWcxuXN0170WcB4OTBHoGZYvzXgxlMshtEYRzXc9y9BInwsq79gmaakI&usqp=CAU" alt="Avengers: Endgame" height="200">
+                        <h3>Avengers: Endgame</h3>
+                        <p>Action/Adventure/Drama</p>
+                        <button>Watch Trailer</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h2>Latest Reviews</h2>
+                <ul>
+                    <li>
+                        <h3>3 Idiots</h3>
+                        <p>In college, Farhan and Raju form a great bond with Rancho due to his positive and refreshing outlook to life. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.</p>
+                    </li>
+                    <li>
+                        <h3>Laapataa Ladies</h3>
+                        <p>Two newlyweds find themselves inadvertently separated from their husbands moments after their respective weddings.</p>
+                    </li>
+                    <li>
+                        <h3>Avengers: Endgame</h3>
+                        <p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
 </body>
 </html>
